@@ -1,6 +1,6 @@
 def queue_from_txt(filename):
     while True:
-        with open(filename, 'r') as r:
+        with open(filename, 'r',encoding='utf8') as r:
             line = r.readline()
             if not line:
                 break
